@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- Header -->
+<header id="home" >
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="sign"><a class="signup" href="signup.html">Log In</a></li>
+        </ul>
+    </nav>
+    <div class="intro">
+        <h1>Welcome to My Website</h1>
+        <p>Hi, I'm Dario Jakovleski. I'm a passionate web developer.</p>
+       <button class="btn"> <a href="#about" >Learn more</a> </button>
+    </div>
+</header>
+
+<!-- Hero Section -->
+
+<!-- About Section -->
+<section id="about">
+    <div class="about-content">
+        <h2>About Me</h2>
+        <p>I have been working in the web development industry for over 5 years. I specialize in front-end development and enjoy creating engaging and user-friendly websites.</p>
+        <a href="404.html" class="btn">Download Resume</a>
+    </div>
+</section>
+<div id="Resume">
+
+<!--    Education-->
+    <section id="Education">
+        <div class="detail">
+            <div class="detail-section edu">
+                <div class="detail-title">
+                    <div class="title-icon">
+                    </div>
+                    <span>Education</span>
+                </div>
+                <div class="detail-content">
+                    <div class="timeline-block">
+                        <h1>Finki</h1>
+                        <p>Skopje - Makedonija</p>
+                        <time>2023 - Present</time>
+                    </div>
+                    <div class="timeline-block">
+                        <h1>O.S.U Mirko Mileski</h1>
+                        <p>Kicevo - Makedonija</p>
+                        <time>2018 - 2022</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--    skill section-->
+    <section id="Skills">
+        <div class="skills_section">
+            <div class="skills_head">
+                <h2>My <span>Skills</span></h2>
+                <p>Here is my skills to represent my Expertise</p>
+            </div>
+
+            <div class="skills_main">
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <P>95%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <P>90%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>C</p>
+                        <P>80%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="C"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Java Script</p>
+                        <P>80%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>C++</p>
+                        <P>75%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="CPP"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Adobe Photoshop</p>
+                        <P>85%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="Photoshop"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Python</p>
+                        <P>75%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="python"></span>
+                    </div>
+                </div>
+                <div class="skill_bar">
+                    <div class="info">
+                        <p>Mongo DB</p>
+                        <P>60%</P>
+                    </div>
+                    <div class="bar">
+                        <span class="mongo"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+<!--Hobi-->
+    <section id="hoby">
+        <div class="detail-section interests">
+            <div class="detail-title">
+                <div class="title-icon">
+                    <span id="Srce"></span>
+                </div>
+                <span>Hobbies</span>
+            </div>
+            <div class="detail-content">
+                <div class="outer-frame">
+                    <ul class="favor-list">
+                        <li>
+                            <span id="game"></span>
+                            <span>Game</span>
+                        </li>
+                        <li>
+                            <span id="Gym"></span>
+                            <span>Gym</span>
+                        </li>
+                        <li>
+                            <span id="Music"></span>
+                            <span>Music</span>
+                        </li>
+                        <li>
+                            <span id="Book"></span>
+                            <span>Study</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+</div>
+    </section>
+<!-- Contact Section -->
+<section id="contact">
+    <div class="contact-content">
+        <h1>Contact Me</h1>
+        <form id="contact-form" action="" method="POST" >
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group-message">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footertop">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="socialmedia">
+            <h3>Follow Me</h3>
+            <ul class="social-media">
+                <li><a href="https://www.instagram.com/djakovleskiix/"><img src="./images/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/dario.jakovleski10"><img src="./images/info-fb.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="./images/info-linkedin.png" alt="Linkedin"></a></li>
+                <li><a href="https://www.linkedin.com/in/dario-jakovleski-16417523b"><img src="./images/info-twitter.png" alt="Twitter"></a></li>
+            </ul>
+            </div>
+            </div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382501.6168709391!2d20.288957724729926!3d41.497905852109504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135136350dde45cb%3A0x542d2458d5429a3a!2z0J7Qv9GI0YLQuNC90LAg0JrQuNGH0LXQstC-!5e0!3m2!1smk!2smk!4v1687949248807!5m2!1smk!2smk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2023 Dario's Website. All rights reserved. | Design by <a href="https://www.linkedin.com/in/dario-jakovleski-16417523b/" target="_blank">DARIO</a></p>
+    </div>
+</footer>
+</div>
+<script src="ScrollTop.js"></script>
+</body>
+</html>
